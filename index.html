@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Shopping Store</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Internal CSS - syllabus demonstration -->
+    <style>
+        .welcome-message {
+            color: #536b63;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 17px;
+        }
+    </style>
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <div class="site-header">
+
+        <div class="brand-area">
+            <span class="store-mark">CSS</span>
+
+            <h1>Campus Shopping Store</h1>
+        </div>
+
+        <p class="tagline">
+            Simple <b>•</b> Stylish <b>•</b> Affordable
+        </p>
+
+        <marquee class="announcement">
+            ★ CAMPUS PICKS ★ &nbsp; Useful products for study, style and everyday college life &nbsp; ★ SHOP SMART ★
+        </marquee>
+
+    </div>
+
+
+    <!-- ================= MAIN PAGE ================= -->
+
+    <div class="page-container">
+
+        <!-- ================= LEFT NAVIGATION ================= -->
+
+        <div class="navigation">
+
+            <h2>Explore Store</h2>
+
+            <hr>
+
+            <ul>
+                <li>
+                    <a href="#products">Featured Products</a>
+                </li>
+
+                <li>
+                    <a href="#categories">Categories</a>
+                </li>
+
+                <li>
+                    <a href="#product-table">Product Details</a>
+                </li>
+
+                <li>
+                    <a href="#inquiry">Product Inquiry</a>
+                </li>
+            </ul>
+
+            <hr>
+
+            <h3 id="categories">Categories</h3>
+
+            <ol>
+                <li>Electronics</li>
+                <li>Fashion</li>
+                <li>Accessories</li>
+                <li>Stationery</li>
+            </ol>
+
+            <div class="navigation-note">
+                <b>Made for Campus Life</b>
+                <br><br>
+                Useful products, clear information and student-friendly prices.
+            </div>
+
+            <p class="side-link">
+                <a href="https://www.example.com" target="_blank">
+                    Visit External Website
+                </a>
+            </p>
+
+        </div>
+
+
+        <!-- ================= MAIN CONTENT ================= -->
+
+        <div class="main-content">
+
+            <p class="eyebrow">
+                THE CAMPUS EDIT • EVERYDAY ESSENTIALS
+            </p>
+
+            <h2 class="main-heading">
+                Everything You Need for Campus Life
+            </h2>
+
+            <p class="welcome-message">
+                Discover practical and stylish products selected specially for students,
+                studying, travelling and everyday college life.
+            </p>
+
+            <p class="format-example">
+                <b>Student-friendly</b> •
+                <i>Practical choices</i> •
+                <u>Clear product information</u>
+            </p>
+
+            <p class="special-note">
+                <blink>New semester favorites are here!</blink>
+            </p>
+
+
+            <!-- ================= PRODUCT SECTION ================= -->
+
+            <hr class="section-line">
+
+            <div class="section-title-box">
+
+                <h2 id="products" class="section-heading">
+                    Featured Products
+                </h2>
+
+                <p>
+                    Explore our collection of useful products for your college life.
+                </p>
+
+            </div>
+
+
+            <!-- PRODUCT 1 -->
+
+            <div class="product-card">
+
+                <div class="image-box">
+                    <img class="product-image"
+                        src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80"
+                        alt="Laptop computer">
+                </div>
+
+                <div class="product-information">
+
+                    <h3>StudyMate Laptop</h3>
+
+                    <p class="price">₹54,999</p>
+
+                    <p class="description">
+                        A dependable laptop for assignments, research, presentations
+                        and online classes.
+                    </p>
+
+                    <p class="specification">
+                        <b>Specifications:</b><br>
+                        14-inch Display<br>
+                        8 GB Memory<br>
+                        256 GB Storage
+                    </p>
+
+                    <input type="button"
+                        class="button"
+                        value="Product Information"
+                        onclick="showInfo('StudyMate Laptop', '14-inch display, 8 GB memory and 256 GB storage.')">
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 2 -->
+
+            <div class="product-card">
+
+                <div class="image-box">
+                    <img class="product-image"
+                        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+                        alt="Over-ear headphones">
+                </div>
+
+                <div class="product-information">
+
+                    <h3>Focus Headphones</h3>
+
+                    <p class="price">₹1,499</p>
+
+                    <p class="description">
+                        Comfortable headphones for lectures, music and focused
+                        study sessions.
+                    </p>
+
+                    <p class="specification">
+                        <b>Specifications:</b><br>
+                        Wireless<br>
+                        20-hour Battery<br>
+                        Built-in Microphone
+                    </p>
+
+                    <input type="button"
+                        class="button"
+                        value="Product Information"
+                        onclick="showInfo('Focus Headphones', 'Wireless headphones with a 20-hour battery and built-in microphone.')">
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 3 -->
+
+            <div class="product-card">
+
+                <div class="image-box">
+                    <img class="product-image"
+                        src="https://hydrologyuniversity.com/assets/material-stainless-BSRZrQ1v.png"
+                        alt="DailySip Bottle"> 
+                    
+                </div>
+
+                <div class="product-information">
+
+                    <h3>DailySip Bottle</h3>
+
+                    <p class="price">₹799</p>
+
+                    <p class="description">
+                        A reusable bottle that is convenient to carry during
+                        classes and campus activities.
+                    </p>
+
+                    <p class="specification">
+                        <b>Specifications:</b><br>
+                        Stainless Steel<br>
+                        750 ml Capacity<br>
+                        Secure Screw-top Lid
+                    </p>
+
+                    <input type="button"
+                        class="button"
+                        value="Product Information"
+                        onclick="showInfo('DailySip Bottle', 'A 750 ml stainless steel bottle with a secure screw-top lid.')">
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 4 -->
+
+            <div class="product-card">
+
+                <div class="image-box">
+                    <img class="product-image"
+                        src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
+                        alt="Campus Backpack">
+                    
+                </div>
+
+                <div class="product-information">
+
+                    <h3>Campus Backpack</h3>
+
+                    <p class="price">₹1,899</p>
+
+                    <p class="description">
+                        A smart everyday backpack with enough space for books,
+                        stationery and a laptop.
+                    </p>
+
+                    <p class="specification">
+                        <b>Specifications:</b><br>
+                        Water-resistant<br>
+                        Laptop Pocket<br>
+                        22-litre Capacity
+                    </p>
+
+                    <input type="button"
+                        class="button"
+                        value="Product Information"
+                        onclick="showInfo('Campus Backpack', 'A water-resistant 22-litre backpack with a laptop pocket.')">
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 5 -->
+
+            <div class="product-card">
+
+                <div class="image-box">
+                    <img class="product-image"
+                        src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+                        alt="Wristwatch">
+                </div>
+
+                <div class="product-information">
+
+                    <h3>Everyday Watch</h3>
+
+                    <p class="price">₹1,250</p>
+
+                    <p class="description">
+                        A clean and easy-to-read watch suitable for lectures,
+                        study sessions and weekends.
+                    </p>
+
+                    <p class="specification">
+                        <b>Specifications:</b><br>
+                        Quartz Movement<br>
+                        Water Resistant<br>
+                        Adjustable Strap
+                    </p>
+
+                    <input type="button"
+                        class="button"
+                        value="Product Information"
+                        onclick="showInfo('Everyday Watch', 'A quartz watch with an adjustable strap and water-resistant design.')">
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 6 -->
+
+            <div class="product-card">
+
+                <div class="image-box">
+                    <img class="product-image"
+                        src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=600&q=80"
+                        alt="Notebook and pen">
+                </div>
+
+                <div class="product-information">
+
+                    <h3>Note &amp; Plan Set</h3>
+
+                    <p class="price">₹399</p>
+
+                    <p class="description">
+                        A simple notebook and pen set for keeping class notes,
+                        ideas and daily plans organized.
+                    </p>
+
+                    <p class="specification">
+                        <b>Specifications:</b><br>
+                        A5 Notebook<br>
+                        160 Pages<br>
+                        Smooth-writing Pen
+                    </p>
+
+                    <input type="button"
+                        class="button"
+                        value="Product Information"
+                        onclick="showInfo('Note & Plan Set', 'An A5 notebook with 160 pages and a smooth-writing pen.')">
+
+                </div>
+
+            </div>
+
+
+            <div class="clear"></div>
+
+
+            <!-- ================= PRODUCT TABLE ================= -->
+
+            <hr class="section-line">
+
+            <div class="section-title-box">
+
+                <h2 id="product-table" class="section-heading">
+                    Product Details
+                </h2>
+
+                <p>
+                    Compare prices, categories and specifications at a glance.
+                </p>
+
+            </div>
+
+
+            <table class="product-table">
+
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Specifications</th>
+                </tr>
+
+                <tr>
+                    <td>StudyMate Laptop</td>
+                    <td>Electronics</td>
+                    <td>₹54,999</td>
+                    <td>14-inch display, 8 GB memory, 256 GB storage</td>
+                </tr>
+
+                <tr>
+                    <td>Focus Headphones</td>
+                    <td>Electronics</td>
+                    <td>₹1,499</td>
+                    <td>Wireless, 20-hour battery, microphone</td>
+                </tr>
+
+                <tr>
+                    <td>DailySip Bottle</td>
+                    <td>Accessories</td>
+                    <td>₹799</td>
+                    <td>Stainless steel, 750 ml capacity</td>
+                </tr>
+
+                <tr>
+                    <td>Campus Backpack</td>
+                    <td>Fashion</td>
+                    <td>₹1,899</td>
+                    <td>Water-resistant, laptop pocket, 22 litres</td>
+                </tr>
+
+                <tr>
+                    <td>Everyday Watch</td>
+                    <td>Accessories</td>
+                    <td>₹1,250</td>
+                    <td>Quartz movement, adjustable strap</td>
+                </tr>
+
+                <tr>
+                    <td>Note &amp; Plan Set</td>
+                    <td>Stationery</td>
+                    <td>₹399</td>
+                    <td>A5 notebook, 160 pages, pen</td>
+                </tr>
+
+            </table>
+
+
+            <!-- ================= QUICK GUIDE ================= -->
+
+            <div class="guide-box">
+
+                <h3 class="section-heading">
+                    Quick Shopping Guide
+                </h3>
+
+                <ol>
+                    <li>Choose a product from the collection.</li>
+                    <li>Check its price and specifications.</li>
+                    <li>Send an inquiry using the form below.</li>
+                </ol>
+
+            </div>
+
+
+            <!-- ================= FORM ================= -->
+
+            <hr class="section-line">
+
+            <div class="section-title-box">
+
+                <h2 id="inquiry" class="section-heading">
+                    Product Inquiry
+                </h2>
+
+                <p>
+                    Fill in the form to show interest in a product.
+                </p>
+
+            </div>
+
+
+            <form class="inquiry-form"
+                name="inquiryForm"
+                onsubmit="return validateForm();">
+
+                <p>
+                    <label for="customerName">Your Name</label>
+                    <br>
+
+                    <input type="text"
+                        id="customerName"
+                        name="customerName"
+                        class="form-control"
+                        placeholder="Enter your name">
+                </p>
+
+
+                <p>
+                    <label for="productChoice">Select a Product</label>
+                    <br>
+
+                    <select id="productChoice"
+                        name="productChoice"
+                        class="form-control"
+                        onchange="calculateEstimate();">
+
+                        <option value="54999">
+                            StudyMate Laptop — ₹54,999
+                        </option>
+
+                        <option value="1499">
+                            Focus Headphones — ₹1,499
+                        </option>
+
+                        <option value="799">
+                            DailySip Bottle — ₹799
+                        </option>
+
+                        <option value="1899">
+                            Campus Backpack — ₹1,899
+                        </option>
+
+                        <option value="1250">
+                            Everyday Watch — ₹1,250
+                        </option>
+
+                        <option value="399">
+                            Note &amp; Plan Set — ₹399
+                        </option>
+
+                    </select>
+                </p>
+
+
+                <p>
+                    <label for="quantity">Quantity</label>
+                    <br>
+
+                    <select id="quantity"
+                        name="quantity"
+                        class="form-control"
+                        onchange="calculateEstimate();">
+
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+
+                    </select>
+                </p>
+
+
+                <div class="estimate-box">
+
+                    Estimated Amount:
+
+                    <span id="estimate">
+                        ₹54,999
+                    </span>
+
+                </div>
+
+
+                <div class="form-option-box">
+
+                    <p>
+                        <b>Preferred way to contact you:</b>
+                    </p>
+
+                    <input type="radio"
+                        name="replyMethod"
+                        value="Email"
+                        checked>
+                    Email
+
+                    &nbsp;&nbsp;
+
+                    <input type="radio"
+                        name="replyMethod"
+                        value="Phone">
+                    Phone
+
+
+                    <p>
+
+                        <input type="checkbox"
+                            id="updates"
+                            name="updates"
+                            value="yes">
+
+                        <label for="updates">
+                            I would like to hear about new campus picks
+                        </label>
+
+                    </p>
+
+                </div>
+
+
+                <p>
+
+                    <input type="submit"
+                        class="button"
+                        value="Send Inquiry">
+
+                    <input type="reset"
+                        class="reset-button"
+                        value="Reset Form"
+                        onclick="resetEstimate();">
+
+                </p>
+
+            </form>
+
+
+            <p class="external-link">
+
+                More information:
+                <a href="https://www.example.com" target="_blank">
+                    Visit External Website
+                </a>
+
+            </p>
+
+
+            <hr class="section-line">
+
+            <p class="footer">
+                Campus Shopping Store • A BSc Computer Science Practical Project
+            </p>
+
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+
+</body>
+

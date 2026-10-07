@@ -1,0 +1,496 @@
+/* =====================================================
+   CAMPUS SHOPPING STORE
+   External Style Sheet
+   CSS Rules, Selectors, Classes, IDs,
+   Box Model, Borders, Padding, Margin and Positioning
+   ===================================================== */
+
+
+/* ================= BASIC PAGE ================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8e0d2;
+    color: #293a35;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+/* ================= HEADER ================= */
+
+.site-header {
+    margin: 0;
+    padding: 24px 25px 0 25px;
+    background-color: #173d36;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 6px solid #c99a5b;
+}
+
+.brand-area {
+    margin: 0;
+    padding: 0;
+}
+
+.store-mark {
+    display: inline-block;
+    margin: 0 12px 0 0;
+    padding: 8px 10px;
+    border: 2px solid #e1c48c;
+    color: #e1c48c;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.site-header h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 34px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+}
+
+.tagline {
+    margin: 10px 0 20px 0;
+    color: #eadfcf;
+    font-size: 15px;
+}
+
+.announcement {
+    display: block;
+    padding: 9px;
+    background-color: #c99a5b;
+    color: #173d36;
+    font-weight: bold;
+}
+
+
+/* ================= MAIN CONTAINER ================= */
+
+.page-container {
+    margin: 25px auto;
+    padding: 20px;
+    width: 92%;
+    border: 1px solid #d0c4b1;
+    background-color: #f8f4ec;
+}
+
+
+/* ================= LEFT NAVIGATION ================= */
+
+.navigation {
+    float: left;
+    width: 19%;
+    margin: 0 2% 25px 0;
+    padding: 18px;
+    border: 2px solid #cdbb9e;
+    background-color: #eee5d6;
+}
+
+.navigation h2 {
+    margin: 0 0 10px 0;
+    color: #173d36;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.navigation h3 {
+    margin-top: 18px;
+    color: #173d36;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.navigation hr {
+    border: 0;
+    border-top: 1px solid #cdbb9e;
+}
+
+.navigation ul,
+.navigation ol {
+    padding-left: 22px;
+    line-height: 2;
+}
+
+.navigation a {
+    color: #245d50;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #a45f3d;
+    text-decoration: underline;
+}
+
+.navigation-note {
+    margin-top: 20px;
+    padding: 12px;
+    border: 1px solid #d3c3aa;
+    border-left: 4px solid #c99a5b;
+    background-color: #faf7f0;
+    color: #536b63;
+    line-height: 1.5;
+}
+
+.side-link {
+    margin-top: 20px;
+}
+
+
+/* ================= MAIN CONTENT ================= */
+
+.main-content {
+    margin-left: 23%;
+    padding: 5px 10px 10px 10px;
+}
+
+.eyebrow {
+    margin: 0;
+    color: #a45f3d;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main-heading {
+    margin: 8px 0;
+    color: #173d36;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 31px;
+}
+
+.format-example {
+    color: #536b63;
+}
+
+.special-note {
+    margin: 15px 0;
+    padding: 8px 12px;
+    border-left: 4px solid #c99a5b;
+    background-color: #f0e6d4;
+    color: #a45f3d;
+    font-weight: bold;
+}
+
+
+/* ================= SECTION SEPARATION ================= */
+
+.section-line {
+    margin: 28px 0;
+    border: 0;
+    border-top: 2px solid #d3c5af;
+}
+
+.section-title-box {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    border-left: 5px solid #c99a5b;
+    background-color: #eee5d6;
+}
+
+.section-heading {
+    margin: 0 0 6px 0;
+    color: #173d36;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 25px;
+}
+
+.section-title-box p {
+    margin: 5px 0;
+    color: #536b63;
+}
+
+
+/* =====================================================
+   PRODUCT CARDS
+   ===================================================== */
+
+.product-card {
+    float: left;
+
+    /* Two products per row */
+    width: 40%;
+
+    min-height: 390px;
+
+    margin: 12px 1.5%;
+
+    padding: 14px;
+
+    border: 2px solid #d5c5aa;
+
+    background-color: #ffffff;
+}
+
+
+/* Product image separate partition */
+
+.image-box {
+    margin: 0;
+    padding: 8px;
+    border: 1px solid #ded2bf;
+    background-color: #f5f1e9;
+    text-align: center;
+}
+
+
+/* Smaller product image */
+
+.product-image {
+    display: block;
+
+    width: 100%;
+    height: 145px;
+
+    border: 1px solid #d7cbb8;
+}
+
+
+/* Product information separate area */
+
+.product-information {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 2px solid #e2d6c4;
+}
+
+.product-card h3 {
+    margin: 0 0 5px 0;
+    color: #173d36;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px;
+}
+
+.price {
+    margin: 5px 0 8px 0;
+    color: #a45f3d;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.description {
+    margin: 8px 0;
+    color: #4f625b;
+    line-height: 1.5;
+}
+
+
+/* Specification partition */
+
+.specification {
+    margin: 12px 0;
+    padding: 9px;
+    border: 1px solid #d9cbb6;
+    background-color: #f3eee5;
+    color: #536b63;
+    line-height: 1.6;
+}
+
+
+/* ================= BUTTONS ================= */
+
+.button,
+.reset-button {
+    margin: 5px 5px 5px 0;
+    padding: 9px 13px;
+    border: 1px solid #173d36;
+    background-color: #173d36;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #245d50;
+}
+
+.reset-button {
+    border-color: #a45f3d;
+    background-color: #a45f3d;
+}
+
+.reset-button:hover {
+    background-color: #8b4c32;
+}
+
+
+/* ================= CLEAR FLOAT ================= */
+
+.clear {
+    clear: both;
+}
+
+
+/* =====================================================
+   PRODUCT TABLE
+   ===================================================== */
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #ffffff;
+}
+
+.product-table th {
+    padding: 12px;
+    border: 1px solid #bfae93;
+    background-color: #173d36;
+    color: #ffffff;
+    text-align: left;
+}
+
+.product-table td {
+    padding: 11px;
+    border: 1px solid #d4c7b4;
+    color: #394d47;
+    text-align: left;
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #f1eadf;
+}
+
+.product-table tr:hover {
+    background-color: #e7ddcc;
+}
+
+
+/* ================= QUICK GUIDE ================= */
+
+.guide-box {
+    margin-top: 20px;
+    padding: 15px 18px;
+    border: 2px solid #d5c5aa;
+    background-color: #faf7f0;
+}
+
+.guide-box ol {
+    line-height: 1.9;
+    color: #536b63;
+}
+
+
+/* =====================================================
+   FORM
+   ===================================================== */
+
+.inquiry-form {
+    margin-top: 15px;
+    padding: 20px;
+
+    border: 2px solid #cdbb9e;
+
+    background-color: #ffffff;
+}
+
+.inquiry-form p {
+    margin-bottom: 17px;
+}
+
+.inquiry-form label {
+    color: #173d36;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 90%;
+    max-width: 500px;
+
+    margin-top: 6px;
+
+    padding: 10px;
+
+    border: 1px solid #bdb09d;
+
+    background-color: #fbfaf7;
+
+    color: #293a35;
+
+    font-size: 14px;
+}
+
+
+/* Estimated amount box */
+
+.estimate-box {
+    margin: 15px 0;
+    padding: 12px;
+
+    border: 1px solid #d1bd9e;
+
+    background-color: #f3e8d5;
+
+    color: #173d36;
+
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#estimate {
+    color: #a45f3d;
+    font-size: 19px;
+}
+
+
+/* Radio and checkbox section */
+
+.form-option-box {
+    margin: 15px 0;
+    padding: 12px;
+
+    border: 1px solid #ded2bf;
+
+    background-color: #f7f3eb;
+}
+
+
+/* ================= LINKS ================= */
+
+.external-link {
+    margin-top: 20px;
+    padding: 10px;
+
+    border-left: 4px solid #c99a5b;
+
+    background-color: #eee5d6;
+}
+
+.external-link a {
+    color: #245d50;
+    font-weight: bold;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    margin: 20px 0 0 0;
+    padding: 12px;
+
+    border-top: 1px solid #d3c5af;
+
+    color: #69766e;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* ================= ID SELECTORS ================= */
+
+#products,
+#categories,
+#product-table,
+#inquiry {
+    scroll-behavior: auto;
+}
+body{
+    background-color:red! important;
+}
